@@ -16,12 +16,11 @@ Otherwise, the carry output is 0.
 Truth Table:
 The behavior of the half-adder can be summarized in a truth table:
 
-A | B | S | C
--------------
-0 | 0 | 0 | 0
-0 | 1 | 1 | 0
-1 | 0 | 1 | 0
-1 | 1 | 0 | 1
+A | B | S | C<br>
+0 | 0 | 0 | 0<br>
+0 | 1 | 1 | 0<br>
+1 | 0 | 1 | 0<br>
+1 | 1 | 0 | 1<br>
 
 Logic Gates:
 A half-adder can be implemented using basic logic gates such as AND and XOR (exclusive OR). Typically, an XOR gate is used to compute the sum output (S), while an AND gate calculates the carry output (C).
